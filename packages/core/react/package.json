@@ -1,0 +1,38 @@
+{
+  "name": "@monoui-org/react",
+  "version": "1.0.0",
+  "description": "🚀 Beautiful and modern React UI library.",
+  "keywords": [
+    "monoui",
+    "components",
+    "react components",
+    "react ui"
+  ],
+  "author": "The1111mp <The1111mp@outlook.com>",
+  "homepage": "https://github.com/1111mp/monoui",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1111mp/monoui.git",
+    "directory": "packages/core/react"
+  },
+  "bugs": {
+    "url": "https://github.com/1111mp/monoui/issues"
+  },
+  "scripts": {
+    "build": "tsup src --dts"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "@monoui-org/button": "workspace:*",
+    "@monoui-org/link": "workspace:*"
+  }
+}

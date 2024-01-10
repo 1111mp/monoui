@@ -1,0 +1,35 @@
+{
+  "name": "@monoui-org/button",
+  "version": "1.0.0",
+  "description": "Buttons allow users to perform actions and choose with a single tap.",
+  "keywords": [
+    "button"
+  ],
+  "author": "The1111mp <The1111mp@outlook.com>",
+  "homepage": "https://github.com/1111mp/monoui",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1111mp/monoui.git",
+    "directory": "packages/components/button"
+  },
+  "bugs": {
+    "url": "https://github.com/1111mp/monoui/issues"
+  },
+  "scripts": {
+    "build": "tsup src --dts"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

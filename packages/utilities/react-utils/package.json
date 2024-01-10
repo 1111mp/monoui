@@ -1,0 +1,32 @@
+{
+  "name": "@monoui-org/react-utils",
+  "version": "1.0.0",
+  "description": "A set of utilities for react on client side.",
+  "keywords": [
+    "react-utils"
+  ],
+  "author": "The1111mp <The1111mp@outlook.com>",
+  "homepage": "https://github.com/1111mp/monoui",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1111mp/monoui.git",
+    "directory": "packages/utilities/react-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/1111mp/monoui/issues"
+  },
+  "scripts": {
+    "build": "tsup src --dts"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {}
+}
